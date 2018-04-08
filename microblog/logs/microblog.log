@@ -1,0 +1,41 @@
+2018-04-04 10:50:00,793 ERROR: Exception on /reset_password_request [GET] [in /Users/dlmy/Documents/works/python/microblog/venv/lib/python3.6/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/dlmy/Documents/works/python/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/dlmy/Documents/works/python/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/dlmy/Documents/works/python/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/dlmy/Documents/works/python/microblog/venv/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/Users/dlmy/Documents/works/python/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/dlmy/Documents/works/python/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/dlmy/Documents/works/python/microblog/app/routes.py", line 162, in reset_password_request
+    form = ResetPasswordRequestForm()
+NameError: name 'ResetPasswordRequestForm' is not defined
+2018-04-04 10:50:51,767 ERROR: Exception on /reset_password_request [GET] [in /Users/dlmy/Documents/works/python/microblog/venv/lib/python3.6/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/dlmy/Documents/works/python/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/dlmy/Documents/works/python/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/dlmy/Documents/works/python/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/dlmy/Documents/works/python/microblog/venv/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/Users/dlmy/Documents/works/python/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/dlmy/Documents/works/python/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/dlmy/Documents/works/python/microblog/app/routes.py", line 162, in reset_password_request
+    form = ResetPasswordRequestForm()
+NameError: name 'ResetPasswordRequestForm' is not defined
+2018-04-04 17:52:33,969 INFO: Microblog startup [in /Users/dlmy/Documents/works/python/microblog/app/__init__.py:52]
+2018-04-04 17:53:04,502 INFO: Microblog startup [in /Users/dlmy/Documents/works/python/microblog/app/__init__.py:52]
+2018-04-04 18:04:33,154 INFO: Microblog startup [in /Users/dlmy/Documents/works/python/microblog/app/__init__.py:52]
+2018-04-04 18:04:45,233 INFO: Microblog startup [in /Users/dlmy/Documents/works/python/microblog/app/__init__.py:52]
+2018-04-04 18:23:35,099 INFO: Microblog startup [in /Users/dlmy/Documents/works/python/microblog/app/__init__.py:52]
+2018-04-05 21:21:14,513 INFO: Microblog startup [in /Users/dlmy/Documents/works/python/microblog/app/__init__.py:77]
+2018-04-08 10:10:49,483 INFO: Microblog startup [in /Users/dlmy/Documents/works/python/microblog/app/__init__.py:77]
